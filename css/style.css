@@ -9,7 +9,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
+    color: #232222;
 }
 
 a {
@@ -97,7 +97,6 @@ a {
     font-size: 18px;
     line-height: 22px;
     color: #fff;
-
 }
 
 .slick-prev,
@@ -108,7 +107,6 @@ a {
     padding: 0;
     position: absolute;
     left: 40px;
-
 }
 
 .slick-prev {
@@ -179,4 +177,106 @@ a {
 
 .header__content-link--active {
     font-weight: 700;
+}
+
+.main {
+}
+.product {
+    padding-top: 100px;
+}
+.container {
+}
+.product__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.product__name {
+width: 510px;
+text-align: center;
+padding-top: 41px;
+}
+.product-prev{
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.product-prev,
+.product-next{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.product__name-item{
+    font-family: 'Roboto Slab', serif;
+    font-style: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.product__name-item.slick-current{
+font-weight: 700;
+font-size: 36px;
+
+color: #001E64;
+}
+.product__name-item +.product__name-item{
+    margin-top: 30px;
+}
+.product__name-item {
+}
+.product__content {
+    width: 600px;
+}
+.product__content-element {
+}
+.product__content-box {
+    display: flex;
+    justify-content: space-between;
+}
+.product__content-img {
+    /* object-fit: cover; */
+    object-fit: scale-down;
+}
+.product__content-list {
+    width: 291px;
+    list-style: none;
+}
+.product__content-item {
+    margin-bottom: 30px;
+}
+.product__content-item span{
+    display: block;
+    margin-bottom: 10px;
+    color: #001E64;
+}
+.product__content-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #001e64;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.product__content-text {
+    margin-bottom: 25px;
+
+}
+.product__content-btn {
+}
+.product__content-btn{
+    display:inline-block;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 12px 85px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid #001e64;
+    color: #001e64;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
 }
